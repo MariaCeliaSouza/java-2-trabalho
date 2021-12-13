@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"> 
+    <script src="index.js" type="module" defer></script>
+    <title>Cadastro</title>
+</head>
+<body>
+    <main class="container">
+      <header id="header">
+        <h1 class="title">ME ACHA!</h1>
+        <h2 class="subtitle">ENCONTRE UM ENDEREÇO POR NÚMERO DE CEP</h2>
+      </header>
+      <div id="icon">
+        <h1 class="h1icon"><i class="material-icons">travel_explore</i></h1>
+      </div>
+        <div class="row">
+          <div class="border">
+            <div class="inputbox">
+              <label for="cep">CEP</label>
+                <input type="text" id="cep"  required>
+            </div>
+            <div class="inputbox">
+              <label for="endereco">Rua</label>
+                <input type="text" id="endereco"  required readonly="readonly">
+            </div>
+            <div class="inputbox">
+              <label for="numero">Número</label>
+                <input type="text" id="numero"  required>
+            </div>
+            <div class="inputbox">
+              <label for="bairro">Bairro</label>
+                <input type="text" id="bairro"  required readonly="readonly">
+            </div>
+            <div class="inputbox">
+              <label for="cidade">Cidade</label>
+                <input type="text" id="cidade"  required readonly="readonly">
+            </div>
+            <div class="inputbox">
+              <label for="estado">Estado</label>
+                <input type="text" id="estado"  required readonly="readonly"  >
+            </div>
+
+            <button id="BuscarCep">Buscar</button>
+        </div>
+    </main>
+</body>
+</html>
